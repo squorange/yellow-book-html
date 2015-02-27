@@ -1,0 +1,21 @@
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.l-page, .l-page-left, .l-page-right {
+	@media #{$small-up} { 
+		width: 100%;
+	}
+	@media #{$medium-up} {
+		width: 50%;
+	}	
+}
+.l-page-left, .l-page {
+	float: left;
+}
+.l-page-right {
+	float: right;	
+}
+
