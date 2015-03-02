@@ -1,3 +1,21 @@
+body {
+	font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 1rem;
+	font-family: $font-bold;
+}
+
+strong {
+	font-family: $font-bold;
+	font-weight: normal;
+}
+
+
+
 article:after {
   content: "";
   display: table;
@@ -17,5 +35,48 @@ article:after {
 }
 .l-page-right {
 	float: right;	
+}
+
+ul.list-flexbox {
+  display: flex;
+}
+
+.article--00 {
+	background: $ag-yellow;
+}
+
+// Split Background
+	@media #{$medium-up} {
+		@mixin half-background($bg-url) {
+			background: linear-gradient(
+			    to right,
+			    rgba(0,0,0, 0) 50%,
+			    rgba(255,255,255, 100) 50%
+			  ),url($bg-url);
+		}
+		.article--01 {
+			@include half-background("../assets/images/inflicted.png");			
+		}
+		.article--02 {
+			@include half-background("../assets/images/pinstriped_suit.png");			
+		}
+		.article--03 {
+			@include half-background("../assets/images/inflicted.png");			
+		}
+		.article--04 {
+			@include half-background("../assets/images/pinstriped_suit.png");			
+		}			
+		.article--05 {
+			@include half-background("../assets/images/inflicted.png");			
+		}
+		.article--06 {
+			@include half-background("../assets/images/pinstriped_suit.png");			
+		}					
+		
+	}
+	
+// Sub-Nav
+.sub-nav dt.active a, .sub-nav dd.active a {
+	background: none;
 }
 
