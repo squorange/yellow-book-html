@@ -266,9 +266,9 @@ $paragraph-line-height: 1.6;
 // $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element
-// $hr-border-width: 1px;
-// $hr-border-style: solid;
-// $hr-border-color: $gainsboro;
+$hr-border-width: 4px;
+$hr-border-style: solid;
+$hr-border-color: $ag-yellow;
 // $hr-margin: rem-calc(20);
 
 // We use these to style lists

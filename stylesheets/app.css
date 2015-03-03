@@ -5151,10 +5151,10 @@ h6 {
   margin-bottom: 0.5rem; }
 
 hr {
-  border: solid #DDDDDD;
-  border-width: 1px 0 0;
+  border: solid #FDDB45;
+  border-width: 4px 0 0;
   clear: both;
-  margin: 1.25rem 0 1.1875rem;
+  margin: 1.25rem 0 1rem;
   height: 0; }
 
 /* Helpful Typography Defaults */
@@ -7301,6 +7301,12 @@ body {
 .text--white, .cover--title, .cover--subtitle {
   color: #FFFFFF; }
 
+.text--yellow {
+  color: #FDDB45; }
+
+.text--center {
+  text-align: center; }
+
 .small-bold-text, h3, figcaption, .quote__attribution, .sub-nav dt, .sub-nav dd {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
   font-size: 0.7rem;
@@ -7314,12 +7320,11 @@ body {
 
 h1 {
   text-transform: uppercase; }
-  .article--01 h1, .article--02 h1, .article--03 h1, .article--04 h1, .article--05 h1, .article--06 h1 {
-    background: #FFFFFF;
-    padding: 1.6em; }
 
 figcaption {
   text-align: center; }
+  .page--dark figcaption {
+    color: #FFFFFF; }
 
 strong {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
@@ -7333,13 +7338,17 @@ a, a:active, a:visited {
   a:hover, a:active:hover, a:visited:hover {
     color: #000000;
     background: #FDDB45; }
-  a.link--modal, .l-magellan a, a:active.link--modal, .l-magellan a:active, a:visited.link--modal, .l-magellan a:visited {
+  a.link--modal, .l-magellan a, a.close-reveal-modal, a:active.link--modal, .l-magellan a:active, a:active.close-reveal-modal, a:visited.link--modal, .l-magellan a:visited, a:visited.close-reveal-modal {
     border: none;
     background: none; }
   .page--dark a, .page--dark a:active, .page--dark a:visited {
     color: #FFFFFF; }
   .page--dark a:hover, .page--dark a:active:hover, .page--dark a:visited:hover {
     color: #000000; }
+  .page--dark a.link--modal, .page--dark a:active.link--modal, .page--dark a:visited.link--modal {
+    color: #FDDB45; }
+  .page--dark a.link--modal:hover, .page--dark a:active.link--modal:hover, .page--dark a:visited.link--modal:hover {
+    color: #FFFFFF; }
   .page--yellow a, .page--yellow a:active, .page--yellow a:visited {
     border-bottom: 1px solid #FFFFFF; }
   .page--yellow a:hover, .page--yellow a:active:hover, .page--yellow a:visited:hover {
@@ -7364,7 +7373,7 @@ q {
   line-height: 6rem;
   text-transform: capitalize;
   font-family: "FranklinGothicLTCom-Bk", Arial, sans-serif;
-  letter-spacing: 0; }
+  letter-spacing: -0.03em; }
 
 .cover--subtitle {
   text-transform: uppercase; }
@@ -7408,6 +7417,12 @@ section {
     -webkit-flex-direction: row-reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
+  section.page--down {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
 
 .l-spread {
   width: 100%; }
@@ -7419,7 +7434,32 @@ section {
   .l-page {
     width: 50%; } }
 
+.text--frame, .content--frame {
+  background: #FFFFFF;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+  .text--frame h1, .content--frame h1 {
+    margin-bottom: 0; }
+
+.content--frame {
+  padding: 4rem; }
+
+hr {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .rule--figure hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px dashed #FDDB45; }
+
+.rule--figure figcaption {
+  margin-top: 0.2em; }
+
 .article--00 {
+  background: #FDDB45; }
+
+.article--07 {
   background: #FDDB45; }
 
 @media only screen and (min-width: 40.063em) {

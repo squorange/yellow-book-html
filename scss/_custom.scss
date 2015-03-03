@@ -9,10 +9,18 @@ body {
 		margin-top: 0;
 	}
 
+
+
 // Typography
 
 .text--white {
 	color: $white;
+}
+.text--yellow {
+	color: $ag-yellow;
+}
+.text--center {
+	text-align: center;
 }
 
 .small-bold-text {
@@ -30,16 +38,7 @@ body {
 
 h1 {
 	@extend .big-bold-text;
-	text-transform: uppercase;	
-	.article--01 &,
-	.article--02 &,
-	.article--03 &,
-	.article--04 &,
-	.article--05 &,
-	.article--06 & {
-		background: $white;
-		padding: 1.6em;
-	}
+	text-transform: uppercase;
 }
 
 h2 {
@@ -53,6 +52,9 @@ h3 {
 figcaption {
 	@extend .small-bold-text;
 	text-align: center;
+	.page--dark & {
+		color: $white;
+	}
 }
 
 strong {
@@ -69,7 +71,8 @@ a, a:active, a:visited {
 		background: $ag-yellow;
 	}
 	&.link--modal,
-	.l-magellan & {
+	.l-magellan &,
+	&.close-reveal-modal {
 		border: none;
 		background: none;
 	}
@@ -78,6 +81,12 @@ a, a:active, a:visited {
 	}
 	.page--dark &:hover {
 		color: $black;
+	}
+	.page--dark &.link--modal {
+		color: $ag-yellow;
+	}
+	.page--dark &.link--modal:hover {
+		color: $white;
 	}
 	.page--yellow & {
 		border-bottom: 1px solid $white;
@@ -112,7 +121,7 @@ q {
 	line-height: 6rem;
 	text-transform: capitalize;
 	font-family: $font-base;
-	letter-spacing: 0;
+	letter-spacing: -0.03em;
 	@extend .text--white;
 }
 
@@ -121,6 +130,7 @@ q {
 	@extend .big-bold-text;
 	text-transform: uppercase;	
 }
+
 
 
 // Layout Structure
@@ -146,6 +156,9 @@ section {
 	&.page--right {
 		flex-direction: row-reverse;
 	}
+	&.page--down {
+		flex-direction: column;
+	}
 }
 
 .l-spread {
@@ -161,11 +174,41 @@ section {
 	}	
 }
 
+.text--frame {
+	background: $white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	h1 {
+		margin-bottom: 0;	
+	}
+}
+.content--frame {
+	@extend .text--frame;
+	padding: $element-padding;
+}
+
+hr {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	.rule--figure & {
+		margin-top: 0;
+		margin-bottom: 0;
+		border: 1px dashed $ag-yellow;
+	}
+}
+
+.rule--figure figcaption {
+	margin-top: 0.2em;
+}
 
 
 // Backgrounds
 
 .article--00 {
+	background: $ag-yellow;
+}
+.article--07 {
 	background: $ag-yellow;
 }
 
@@ -198,8 +241,9 @@ section {
 	}					
 	
 }
-	
-	
+
+
+
 // Magellan Sub-Nav
 
 @media #{$small-up} { 
