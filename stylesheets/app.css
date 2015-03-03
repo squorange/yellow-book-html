@@ -64,7 +64,7 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #333333;
   padding: 0;
   margin: 0;
   font-family: "FranklinGothicLTCom-Bk", Arial, sans-serif;
@@ -4090,30 +4090,30 @@ ul.pagination {
     font-family: "FranklinGothicLTCom-Bk", Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
-    color: #999999; }
+    color: #333333; }
     .sub-nav dt a,
     .sub-nav dd a,
     .sub-nav li a {
       text-decoration: none;
-      color: #999999;
-      padding: 0.1875rem 1rem; }
+      color: #333333;
+      padding: 0.25rem 0.3125rem; }
       .sub-nav dt a:hover,
       .sub-nav dd a:hover,
       .sub-nav li a:hover {
-        color: #737373; }
+        color: #333333; }
     .sub-nav dt.active a,
     .sub-nav dd.active a,
     .sub-nav li.active a {
-      border-radius: 3px;
+      border-radius: 0px;
       font-weight: normal;
-      background: #008CBA;
-      padding: 0.1875rem 1rem;
+      background: none;
+      padding: 0.25rem 0.3125rem;
       cursor: default;
-      color: #FFFFFF; }
+      color: #333333; }
       .sub-nav dt.active a:hover,
       .sub-nav dd.active a:hover,
       .sub-nav li.active a:hover {
-        background: #0078a0; }
+        background: none; }
 
 .switch {
   padding: 0;
@@ -5098,12 +5098,12 @@ a {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
-    font-size: 1.21875rem;
+    font-size: 1.36875rem;
     line-height: 1.6; }
   p aside {
     font-size: 0.875rem;
@@ -5186,7 +5186,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
@@ -5241,7 +5241,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #333333;
   cursor: help; }
 
 abbr {
@@ -7290,12 +7290,14 @@ th.hide-for-touch {
   content: "\f21a"; }
 
 body {
-  font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif; }
+  font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif;
+  font-size: 1em; }
 
-/* Typography */
 h1 {
   font-size: 1rem;
-  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif; }
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em; }
 
 strong {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
@@ -7330,27 +7332,65 @@ ul.list-flexbox {
 
 @media only screen and (min-width: 40.063em) {
   .article--01 {
+    background: #FDDB45;
     background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/inflicted.png");
     background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/inflicted.png"); }
 
   .article--02 {
+    background: #FDDB45;
     background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png");
     background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png"); }
 
   .article--03 {
+    background: #FDDB45;
     background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/inflicted.png");
     background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/inflicted.png"); }
 
   .article--04 {
+    background: #FDDB45;
     background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png");
     background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png"); }
 
   .article--05 {
+    background: #FDDB45;
     background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/inflicted.png");
     background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/inflicted.png"); }
 
   .article--06 {
+    background: #FDDB45;
     background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png");
     background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png"); } }
+@media only screen {
+  .l-magellan {
+    display: none; } }
+@media only screen and (min-width: 40.063em) {
+  .l-magellan {
+    display: block; } }
+.sub-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.sub-nav dt, .sub-nav dd {
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-left: 0; }
+
+.sub-nav dt a:hover, .sub-nav dd a:hover,
 .sub-nav dt.active a, .sub-nav dd.active a {
-  background: none; }
+  text-decoration: underline; }

@@ -100,8 +100,8 @@ $font-family-sans-serif: 'FranklinGothicLTCom-Bk', Arial, sans-serif;
 
 $ag-yellow			: #FDDB45;
 $ag-yellow-fade	: #fde26a;
-$ag-yellow-trans	: rgba(253,219,69,.96);
-// $white       : #FFFFFF;
+$ag-yellow-trans: rgba(253,219,69,.96);
+$white       		: #FFFFFF;
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -117,9 +117,9 @@ $ag-yellow-trans	: rgba(253,219,69,.96);
 // $steel       : #666666;
 // $charcoal    : #555555;
 // $tuatara     : #444444;
-// $oil         : #333333;
+$oil         		: #333333;
 // $jet         : #222222;
-// $black       : #000000;
+$black       		: #000000;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
@@ -131,7 +131,7 @@ $ag-yellow-trans	: rgba(253,219,69,.96);
 
 // We use these to control various global styles
 // $body-bg: $white;
-// $body-font-color: $jet;
+$body-font-color: $oil;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -241,7 +241,7 @@ $ag-yellow-trans	: rgba(253,219,69,.96);
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: $font-weight-normal;
-// $paragraph-font-size: 1rem;
+$paragraph-font-size: 1.15rem;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
@@ -1230,20 +1230,20 @@ $magellan-padding: 10px;
 // We use this to control the definition
 // $sub-nav-font-family: $body-font-family;
 // $sub-nav-font-size: rem-calc(14);
-// $sub-nav-font-color: $aluminum;
+$sub-nav-font-color: $body-font-color;
 // $sub-nav-font-weight: $font-weight-normal;
 // $sub-nav-text-decoration: none;
-// $sub-nav-padding: rem-calc(3 16);
-// $sub-nav-border-radius: 3px;
-// $sub-nav-font-color-hover: scale-color($sub-nav-font-color, $lightness: -25%);
+$sub-nav-padding: rem-calc(4 5);
+$sub-nav-border-radius: 0px;
+$sub-nav-font-color-hover: $body-font-color;
 
 
 // We use these to control the active item styles
 
 // $sub-nav-active-font-weight: $font-weight-normal;
-// $sub-nav-active-bg: $primary-color;
-// $sub-nav-active-bg-hover: scale-color($sub-nav-active-bg, $lightness: -14%);
-// $sub-nav-active-color: $white;
+$sub-nav-active-bg: none;
+$sub-nav-active-bg-hover: none;
+$sub-nav-active-color: $body-font-color;
 // $sub-nav-active-padding: $sub-nav-padding;
 // $sub-nav-active-cursor: default;
 

@@ -1,12 +1,16 @@
 body {
 	font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif;
+	font-size: 1em;
 }
 
-/* Typography */
+
+// Typography
 
 h1 {
 	font-size: 1rem;
 	font-family: $font-bold;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }
 
 strong {
@@ -45,9 +49,11 @@ ul.list-flexbox {
 	background: $ag-yellow;
 }
 
+
 // Split Background
 	@media #{$medium-up} {
 		@mixin half-background($bg-url) {
+			background: $ag-yellow;
 			background: linear-gradient(
 			    to right,
 			    rgba(0,0,0, 0) 50%,
@@ -75,8 +81,42 @@ ul.list-flexbox {
 		
 	}
 	
-// Sub-Nav
-.sub-nav dt.active a, .sub-nav dd.active a {
-	background: none;
+	
+// Magellan Sub-Nav
+
+@media #{$small-up} { 
+	.l-magellan {
+		display: none;
+	}
 }
+@media #{$medium-up} {
+	.l-magellan {
+		display: block;
+	}
+}	
+
+.sub-nav {
+	display: flex;
+	flex-direction: row;	
+	align-items: center;
+	justify-content: space-around;
+}
+
+.sub-nav dt, .sub-nav dd {
+	font-family: $font-bold;
+	font-size: 0.7rem;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;	
+	margin-left: 0;
+}
+
+.sub-nav dt a, .sub-nav dd a,
+.sub-nav dt a:visited, .sub-nav dd a:visited {
+}
+
+.sub-nav dt a:hover, .sub-nav dd a:hover,
+.sub-nav dt.active a, .sub-nav dd.active a {
+	text-decoration: underline;
+}
+
 
