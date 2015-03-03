@@ -1,10 +1,19 @@
 body {
 	font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif;
-	font-size: 1em;
 }
 
+* + * {
+	margin-top: 1.6em;
+}
+	.close-reveal-modal {
+		margin-top: 0;
+	}
 
 // Typography
+
+.text--white {
+	color: $white;
+}
 
 .small-bold-text {
 	font-family: $font-bold;
@@ -13,17 +22,28 @@ body {
 	text-transform: uppercase;	
 }
 
-h1 {
+.big-bold-text {
 	font-size: 1rem;
 	font-family: $font-bold;
-	text-transform: uppercase;
 	letter-spacing: 0.05em;
 }
 
+h1 {
+	@extend .big-bold-text;
+	text-transform: uppercase;	
+	.article--01 &,
+	.article--02 &,
+	.article--03 &,
+	.article--04 &,
+	.article--05 &,
+	.article--06 & {
+		background: $white;
+		padding: 1.6em;
+	}
+}
+
 h2 {
-	font-size: 1rem;
-	font-family: $font-bold;
-	letter-spacing: 0.05em;	
+	@extend .big-bold-text;
 }
 
 h3 {
@@ -40,19 +60,81 @@ strong {
 	font-weight: normal;
 }
 
+a, a:active, a:visited {
+	color: $black;
+	border-bottom: 1px solid $ag-yellow;	
+	transition: all 0.2s;
+	&:hover {
+		color: $black;
+		background: $ag-yellow;
+	}
+	&.link--modal,
+	.l-magellan & {
+		border: none;
+		background: none;
+	}
+	.page--dark & {
+		color: $white;
+	}
+	.page--dark &:hover {
+		color: $black;
+	}
+	.page--yellow & {
+		border-bottom: 1px solid $white;
+	}
+	.page--yellow &:hover {
+		background: $white;
+	}
+}
+
+p {
+	margin-bottom: 1.6em;
+	.page--dark & {
+		color: $white;
+	}
+}
+
+q {
+	color: $base;
+}
+
 .quote__attribution {
 	@extend .small-bold-text;
+	color: $base;	
+}
+
+.link--modal {
+	color: $ag-yellow;
+}
+
+.cover--title {
+	font-size: 7rem;
+	line-height: 6rem;
+	text-transform: capitalize;
+	font-family: $font-base;
+	letter-spacing: 0;
+	@extend .text--white;
+}
+
+.cover--subtitle {
+	@extend .text--white;
+	@extend .big-bold-text;
+	text-transform: uppercase;	
 }
 
 
-
 // Layout Structure
+
+$element-padding: 4rem;
 
 article {
 	display: flex;
 	flex-direction: column;	
 	align-items: right;
 	justify-content: space-around;	
+	margin-top: 0;
+	padding-top: $element-padding;
+	padding-bottom: $element-padding;
 }
 
 section {

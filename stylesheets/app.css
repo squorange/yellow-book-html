@@ -5098,12 +5098,12 @@ a {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
-    font-size: 1.36875rem;
+    font-size: 1.31875rem;
     line-height: 1.6; }
   p aside {
     font-size: 0.875rem;
@@ -5186,7 +5186,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
@@ -7290,8 +7290,16 @@ th.hide-for-touch {
   content: "\f21a"; }
 
 body {
-  font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif;
-  font-size: 1em; }
+  font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif; }
+
+* + * {
+  margin-top: 1.6em; }
+
+.close-reveal-modal {
+  margin-top: 0; }
+
+.text--white, .cover--title, .cover--subtitle {
+  color: #FFFFFF; }
 
 .small-bold-text, h3, figcaption, .quote__attribution, .sub-nav dt, .sub-nav dd {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
@@ -7299,16 +7307,16 @@ body {
   letter-spacing: 0.05em;
   text-transform: uppercase; }
 
-h1 {
+.big-bold-text, h1, h2, .cover--subtitle {
   font-size: 1rem;
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
-  text-transform: uppercase;
   letter-spacing: 0.05em; }
 
-h2 {
-  font-size: 1rem;
-  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
-  letter-spacing: 0.05em; }
+h1 {
+  text-transform: uppercase; }
+  .article--01 h1, .article--02 h1, .article--03 h1, .article--04 h1, .article--05 h1, .article--06 h1 {
+    background: #FFFFFF;
+    padding: 1.6em; }
 
 figcaption {
   text-align: center; }
@@ -7316,6 +7324,50 @@ figcaption {
 strong {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
   font-weight: normal; }
+
+a, a:active, a:visited {
+  color: #000000;
+  border-bottom: 1px solid #FDDB45;
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s; }
+  a:hover, a:active:hover, a:visited:hover {
+    color: #000000;
+    background: #FDDB45; }
+  a.link--modal, .l-magellan a, a:active.link--modal, .l-magellan a:active, a:visited.link--modal, .l-magellan a:visited {
+    border: none;
+    background: none; }
+  .page--dark a, .page--dark a:active, .page--dark a:visited {
+    color: #FFFFFF; }
+  .page--dark a:hover, .page--dark a:active:hover, .page--dark a:visited:hover {
+    color: #000000; }
+  .page--yellow a, .page--yellow a:active, .page--yellow a:visited {
+    border-bottom: 1px solid #FFFFFF; }
+  .page--yellow a:hover, .page--yellow a:active:hover, .page--yellow a:visited:hover {
+    background: #FFFFFF; }
+
+p {
+  margin-bottom: 1.6em; }
+  .page--dark p {
+    color: #FFFFFF; }
+
+q {
+  color: #AAAAAA; }
+
+.quote__attribution {
+  color: #AAAAAA; }
+
+.link--modal {
+  color: #FDDB45; }
+
+.cover--title {
+  font-size: 7rem;
+  line-height: 6rem;
+  text-transform: capitalize;
+  font-family: "FranklinGothicLTCom-Bk", Arial, sans-serif;
+  letter-spacing: 0; }
+
+.cover--subtitle {
+  text-transform: uppercase; }
 
 article {
   display: -webkit-box;
@@ -7333,7 +7385,10 @@ article {
           align-items: right;
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
-          justify-content: space-around; }
+          justify-content: space-around;
+  margin-top: 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
 
 section {
   width: 100%;
