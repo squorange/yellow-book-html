@@ -7293,39 +7293,75 @@ body {
   font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif;
   font-size: 1em; }
 
+.small-bold-text, h3, figcaption, .quote__attribution, .sub-nav dt, .sub-nav dd {
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase; }
+
 h1 {
   font-size: 1rem;
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em; }
 
+h2 {
+  font-size: 1rem;
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
+  letter-spacing: 0.05em; }
+
+figcaption {
+  text-align: center; }
+
 strong {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
   font-weight: normal; }
 
-article:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-@media only screen {
-  .l-page, .l-page-left, .l-page-right {
-    width: 100%; } }
-@media only screen and (min-width: 40.063em) {
-  .l-page, .l-page-left, .l-page-right {
-    width: 50%; } }
-
-.l-page-left, .l-page {
-  float: left; }
-
-.l-page-right {
-  float: right; }
-
-ul.list-flexbox {
+article {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: right;
+  -webkit-align-items: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+section {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.l-spread {
+  width: 100%; }
+
+@media only screen {
+  .l-page {
+    width: 100%; } }
+@media only screen and (min-width: 40.063em) {
+  .l-page {
+    width: 50%; } }
+
+.page--left, .l-page {
+  float: left; }
+
+.page--right {
+  float: right; }
 
 .article--00 {
   background: #FDDB45; }
@@ -7371,6 +7407,9 @@ ul.list-flexbox {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -7385,10 +7424,6 @@ ul.list-flexbox {
           justify-content: space-around; }
 
 .sub-nav dt, .sub-nav dd {
-  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
-  font-size: 0.7rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
   margin-left: 0; }
 
 .sub-nav dt a:hover, .sub-nav dd a:hover,

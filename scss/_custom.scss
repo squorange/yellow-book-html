@@ -6,6 +6,13 @@ body {
 
 // Typography
 
+.small-bold-text {
+	font-family: $font-bold;
+	font-size: 0.7rem;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;	
+}
+
 h1 {
 	font-size: 1rem;
 	font-family: $font-bold;
@@ -13,20 +20,52 @@ h1 {
 	letter-spacing: 0.05em;
 }
 
+h2 {
+	font-size: 1rem;
+	font-family: $font-bold;
+	letter-spacing: 0.05em;	
+}
+
+h3 {
+	@extend .small-bold-text;
+}
+
+figcaption {
+	@extend .small-bold-text;
+	text-align: center;
+}
+
 strong {
 	font-family: $font-bold;
 	font-weight: normal;
 }
 
-
-
-article:after {
-  content: "";
-  display: table;
-  clear: both;
+.quote__attribution {
+	@extend .small-bold-text;
 }
 
-.l-page, .l-page-left, .l-page-right {
+
+
+// Layout Structure
+
+article {
+	display: flex;
+	flex-direction: column;	
+	align-items: right;
+	justify-content: space-around;	
+}
+
+section {
+	width: 100%;
+	display: flex;
+	flex-direction: row;		
+}
+
+.l-spread {
+	width: 100%;
+}
+
+.l-page {
 	@media #{$small-up} { 
 		width: 100%;
 	}
@@ -34,16 +73,13 @@ article:after {
 		width: 50%;
 	}	
 }
-.l-page-left, .l-page {
+.page--left, .l-page {
 	float: left;
 }
-.l-page-right {
+.page--right {
 	float: right;	
 }
 
-ul.list-flexbox {
-  display: flex;
-}
 
 .article--00 {
 	background: $ag-yellow;
@@ -97,21 +133,15 @@ ul.list-flexbox {
 
 .sub-nav {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;	
 	align-items: center;
 	justify-content: space-around;
 }
 
 .sub-nav dt, .sub-nav dd {
-	font-family: $font-bold;
-	font-size: 0.7rem;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;	
+	@extend .small-bold-text;
 	margin-left: 0;
-}
-
-.sub-nav dt a, .sub-nav dd a,
-.sub-nav dt a:visited, .sub-nav dd a:visited {
 }
 
 .sub-nav dt a:hover, .sub-nav dd a:hover,
