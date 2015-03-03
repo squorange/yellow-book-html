@@ -7441,6 +7441,19 @@ section {
   .text--frame h1, .content--frame h1 {
     margin-bottom: 0; }
 
+.frame--quote:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 10px 0 10px 18px;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  margin-top: -10px;
+  right: -18px;
+  top: 50%; }
+
 .content--frame {
   padding: 4rem; }
 
