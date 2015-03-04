@@ -13,6 +13,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/img-bespoke.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65689,
+		"inputAbbreviatedPath": "\/assets\/images\/img-bespoke.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-bespoke.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-insideout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76375,
+		"inputAbbreviatedPath": "\/assets\/images\/img-insideout.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-insideout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-io-inside.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8368,
+		"inputAbbreviatedPath": "\/assets\/images\/img-io-inside.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-io-inside.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-io-outside.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8368,
+		"inputAbbreviatedPath": "\/assets\/images\/img-io-outside.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-io-outside.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-lens-emotional.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59525,
+		"inputAbbreviatedPath": "\/assets\/images\/img-lens-emotional.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-lens-emotional.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-lens-experiential.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22141,
+		"inputAbbreviatedPath": "\/assets\/images\/img-lens-experiential.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-lens-experiential.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-lens-rational.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21322,
+		"inputAbbreviatedPath": "\/assets\/images\/img-lens-rational.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-lens-rational.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-lens-spiritual.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57759,
+		"inputAbbreviatedPath": "\/assets\/images\/img-lens-spiritual.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-lens-spiritual.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-td.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19770,
+		"inputAbbreviatedPath": "\/assets\/images\/img-td.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-td.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/inflicted.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -31,6 +130,17 @@
 		"initialSize": 45299,
 		"inputAbbreviatedPath": "\/assets\/images\/inflicted_@2X.png",
 		"outputAbbreviatedPath": "\/assets\/images\/inflicted_@2X.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo-ag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3931,
+		"inputAbbreviatedPath": "\/assets\/images\/logo-ag.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo-ag.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

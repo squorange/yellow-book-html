@@ -7375,8 +7375,12 @@ a, a:active, a:visited {
       color: #FFFFFF; } }
   .page--yellow a, .page--yellow a:active, .page--yellow a:visited {
     border-bottom: 1px solid #FFFFFF; }
-  .page--yellow a:hover, .page--yellow a:active:hover, .page--yellow a:visited:hover {
-    background: #FFFFFF; }
+    .page--yellow a:hover, .page--yellow a:active:hover, .page--yellow a:visited:hover {
+      background: #FFFFFF; }
+  .logo--link a, .logo--link a:active, .logo--link a:visited {
+    border-bottom: none; }
+    .logo--link a:hover, .logo--link a:active:hover, .logo--link a:visited:hover {
+      background: none; }
   @media only screen {
     footer a, footer a:active, footer a:visited {
       border-bottom: 1px solid #FFFFFF; } }
@@ -7525,6 +7529,16 @@ section {
     padding: 4rem;
     margin: 0 auto;
     background: #FFFFFF; } }
+
+.content--center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 hr {
   margin-left: auto;

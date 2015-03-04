@@ -125,9 +125,15 @@ a, a:active, a:visited {
 	}
 	.page--yellow & {
 		border-bottom: 1px solid $white;
+		&:hover {
+			background: $white;
+		}
 	}
-	.page--yellow &:hover {
-		background: $white;
+	.logo--link & {
+		border-bottom: none;
+		&:hover {
+			background: none;
+		}
 	}
 	footer & {
 		@media #{$small-up} {
@@ -272,6 +278,10 @@ section {
 		margin: 0 auto;
 		background: $white;
 	}
+}
+.content--center {
+	display: flex;
+	align-items: center;
 }
 
 hr {
