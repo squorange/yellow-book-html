@@ -160,9 +160,19 @@ a, a:active, a:visited {
 	&.link--social {
 		border-bottom: none;
 		font-size: 3em;
-		&:hover {
+		@media #{$small-up} {
 			color: $white;
-			background: none;
+			&:hover {
+				color: $black;
+				background: none;
+			}
+		}
+		@media #{$medium-up} {
+			color: $black;
+			&:hover {
+				color: $white;
+				background: none;
+			}
 		}
 	}
 }
@@ -290,7 +300,7 @@ section {
 	@media #{$medium-up} {
 		padding: $element-padding;
 		margin: 0 auto;
-		background: $white;
+		background: rgba(255,255,255,0.95);
 	}
 }
 .content--center {
@@ -332,7 +342,13 @@ figure {
 	background: $ag-yellow;
 }
 .article--07 {
-	background: $ag-yellow;
+	@media #{$small-up} {
+		background: $ag-yellow;
+	}
+	@media #{$medium-up} {
+		background: url("../assets/images/bg-curves.jpg");
+		background-size: cover;
+	}	
 }
 
 @media #{$medium-up} {
@@ -340,29 +356,28 @@ figure {
 		background: $ag-yellow;
 		background: linear-gradient(
 		    to right,
-		    rgba(0,0,0, 0) 50%,
-		    rgba(255,255,255, 100) 50%
+		    rgba(0,0,0,0) 50%,
+		    rgba(255,255,255,100) 50%
 		  ),url($bg-url);
 	}
 	.article--01 {
-		@include half-background("../assets/images/inflicted.png");			
+		@include half-background("../assets/images/bg-shapes.jpg");			
 	}
 	.article--02 {
-		@include half-background("../assets/images/pinstriped_suit.png");			
+		@include half-background("../assets/images/bg-pinstriped_suit.png");			
 	}
 	.article--03 {
-		@include half-background("../assets/images/inflicted.png");			
+		@include half-background("../assets/images/bg-brushstrokes.jpg");			
 	}
 	.article--04 {
-		@include half-background("../assets/images/pinstriped_suit.png");			
+		@include half-background("../assets/images/bg-lodyas.png");			
 	}			
 	.article--05 {
-		@include half-background("../assets/images/inflicted.png");			
+		@include half-background("../assets/images/bg-squares.jpg");			
 	}
 	.article--06 {
-		@include half-background("../assets/images/pinstriped_suit.png");			
-	}					
-	
+		@include half-background("../assets/images/bg-inflicted.png");			
+	}	
 }
 
 

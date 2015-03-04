@@ -7402,9 +7402,18 @@ a, a:active, a:visited {
   a.link--social, a:active.link--social, a:visited.link--social {
     border-bottom: none;
     font-size: 3em; }
-    a.link--social:hover, a:active.link--social:hover, a:visited.link--social:hover {
-      color: #FFFFFF;
-      background: none; }
+    @media only screen {
+      a.link--social, a:active.link--social, a:visited.link--social {
+        color: #FFFFFF; }
+        a.link--social:hover, a:active.link--social:hover, a:visited.link--social:hover {
+          color: #000000;
+          background: none; } }
+    @media only screen and (min-width: 40.063em) {
+      a.link--social, a:active.link--social, a:visited.link--social {
+        color: #000000; }
+        a.link--social:hover, a:active.link--social:hover, a:visited.link--social:hover {
+          color: #FFFFFF;
+          background: none; } }
 
 .link--modal {
   color: #FDDB45; }
@@ -7540,7 +7549,7 @@ section {
   .footer--frame {
     padding: 4rem;
     margin: 0 auto;
-    background: #FFFFFF; } }
+    background: rgba(255, 255, 255, 0.95); } }
 
 .content--center {
   display: -webkit-box;
@@ -7577,39 +7586,44 @@ figure {
 .article--00 {
   background: #FDDB45; }
 
-.article--07 {
-  background: #FDDB45; }
+@media only screen {
+  .article--07 {
+    background: #FDDB45; } }
+@media only screen and (min-width: 40.063em) {
+  .article--07 {
+    background: url("../assets/images/bg-curves.jpg");
+    background-size: cover; } }
 
 @media only screen and (min-width: 40.063em) {
   .article--01 {
     background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/inflicted.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/inflicted.png"); }
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-shapes.jpg");
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-shapes.jpg"); }
 
   .article--02 {
     background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png"); }
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-pinstriped_suit.png");
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-pinstriped_suit.png"); }
 
   .article--03 {
     background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/inflicted.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/inflicted.png"); }
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-brushstrokes.jpg");
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-brushstrokes.jpg"); }
 
   .article--04 {
     background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png"); }
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-lodyas.png");
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-lodyas.png"); }
 
   .article--05 {
     background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/inflicted.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/inflicted.png"); }
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-squares.jpg");
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-squares.jpg"); }
 
   .article--06 {
     background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/pinstriped_suit.png"); } }
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-inflicted.png");
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-inflicted.png"); } }
 @media only screen {
   .l-magellan {
     display: none; } }

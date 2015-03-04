@@ -2,6 +2,83 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
+	"\/assets\/images\/bg-brushstrokes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54461,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-brushstrokes.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-brushstrokes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-circles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105130,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-circles.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-circles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-curves.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23320,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-curves.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-curves.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-inflicted.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32624,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-inflicted.png",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-inflicted.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-lines.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75329,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-lines.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-lines.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-lodyas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33702,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-lodyas.png",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-lodyas.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-pinstriped_suit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59657,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-pinstriped_suit.png",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-pinstriped_suit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/bg-shapes.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9,6 +86,17 @@
 		"initialSize": 60357,
 		"inputAbbreviatedPath": "\/assets\/images\/bg-shapes.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/bg-shapes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-squares.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61328,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-squares.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-squares.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -332,17 +420,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/inflicted.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32624,
-		"inputAbbreviatedPath": "\/assets\/images\/inflicted.png",
-		"outputAbbreviatedPath": "\/assets\/images\/inflicted.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/inflicted_@2X.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -361,17 +438,6 @@
 		"initialSize": 3931,
 		"inputAbbreviatedPath": "\/assets\/images\/logo-ag.png",
 		"outputAbbreviatedPath": "\/assets\/images\/logo-ag.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/pinstriped_suit.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 59657,
-		"inputAbbreviatedPath": "\/assets\/images\/pinstriped_suit.png",
-		"outputAbbreviatedPath": "\/assets\/images\/pinstriped_suit.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
