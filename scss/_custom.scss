@@ -157,6 +157,14 @@ a, a:active, a:visited {
 			background: $ag-yellow;
 		}
 	}
+	&.link--social {
+		border-bottom: none;
+		font-size: 3em;
+		&:hover {
+			color: $white;
+			background: none;
+		}
+	}
 }
 .link--modal {
 	color: $ag-yellow;

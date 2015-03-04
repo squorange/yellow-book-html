@@ -7399,6 +7399,12 @@ a, a:active, a:visited {
   @media only screen and (min-width: 40.063em) {
     footer a:hover, footer a:active:hover, footer a:visited:hover {
       background: #FDDB45; } }
+  a.link--social, a:active.link--social, a:visited.link--social {
+    border-bottom: none;
+    font-size: 3em; }
+    a.link--social:hover, a:active.link--social:hover, a:visited.link--social:hover {
+      color: #FFFFFF;
+      background: none; }
 
 .link--modal {
   color: #FDDB45; }
