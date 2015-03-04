@@ -7290,7 +7290,7 @@ th.hide-for-touch {
   content: "\f21a"; }
 
 body {
-  font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif; }
+  font-family: "FranklinGothicLTCom-Bk", Arial, sans-serif; }
 
 * + * {
   margin-top: 1.6em; }
@@ -7306,6 +7306,12 @@ body {
 
 .text--center {
   text-align: center; }
+
+.text--bold {
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif; }
+
+.text--huge {
+  font-size: 500%; }
 
 .small-bold-text, h3, figcaption, .quote__attribution, .sub-nav dt, .sub-nav dd {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
@@ -7556,6 +7562,11 @@ hr {
 
 .rule--figure figcaption {
   margin-top: 0.2em; }
+
+figure {
+  margin-bottom: 0; }
+  figure figcaption {
+    margin-top: 0; }
 
 .article--00 {
   background: #FDDB45; }

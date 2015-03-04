@@ -13,6 +13,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/img-are-adaptive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13181,
+		"inputAbbreviatedPath": "\/assets\/images\/img-are-adaptive.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-are-adaptive.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-are-creative.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17249,
+		"inputAbbreviatedPath": "\/assets\/images\/img-are-creative.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-are-creative.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-are-human.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5256,
+		"inputAbbreviatedPath": "\/assets\/images\/img-are-human.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-are-human.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/img-bespoke.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -64,6 +97,39 @@
 		"initialSize": 148955,
 		"inputAbbreviatedPath": "\/assets\/images\/img-char-stylist.png",
 		"outputAbbreviatedPath": "\/assets\/images\/img-char-stylist.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-client-clothes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11717,
+		"inputAbbreviatedPath": "\/assets\/images\/img-client-clothes.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-client-clothes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-client-crossroads.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7012,
+		"inputAbbreviatedPath": "\/assets\/images\/img-client-crossroads.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-client-crossroads.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/img-client-pioneer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12782,
+		"inputAbbreviatedPath": "\/assets\/images\/img-client-pioneer.png",
+		"outputAbbreviatedPath": "\/assets\/images\/img-client-pioneer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
