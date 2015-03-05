@@ -7298,6 +7298,9 @@ body {
 .close-reveal-modal {
   margin-top: 0; }
 
+.l-notop {
+  margin-top: 0; }
+
 .text--white, .cover--title, .cover--subtitle {
   color: #FFFFFF; }
 
