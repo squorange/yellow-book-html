@@ -7700,3 +7700,22 @@ figure {
 
 .top-bar-section ul li > a {
   text-transform: uppercase; }
+
+.top-bar .name h1:before {
+  background-image: url("../assets/images/logo-ag.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-top: 12px;
+  margin-left: 15px;
+  position: relative;
+  width: 150px; }
+
+@media only screen {
+  .logo--link {
+    display: none; } }
+@media only screen and (min-width: 40.063em) {
+  .logo--link {
+    display: block; } }
