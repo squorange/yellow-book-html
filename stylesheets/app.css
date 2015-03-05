@@ -7544,17 +7544,6 @@ section {
   right: -18px;
   top: 50%; }
 
-@media only screen {
-  .footer--frame {
-    padding: 0;
-    margin: 0;
-    background: #FDDB45; } }
-@media only screen and (min-width: 40.063em) {
-  .footer--frame {
-    padding: 4rem;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.95); } }
-
 .content--center {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7617,6 +7606,36 @@ figure {
 .article--00 {
   background: #FDDB45; }
 
+@media only screen and (min-width: 40.063em) {
+  .article--01 {
+    background: #FDDB45;
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-shapes.jpg") -30px -65px;
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-shapes.jpg") -30px -65px; }
+
+  .article--02 {
+    background: #FDDB45;
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-inflicted.png") -30px -65px;
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-inflicted.png") -30px -65px; }
+
+  .article--03 {
+    background: #FDDB45;
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-brushstrokes.jpg") -30px -65px;
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-brushstrokes.jpg") -30px -65px; }
+
+  .article--04 {
+    background: #FDDB45;
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-pinstriped_suit.png") -30px -65px;
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-pinstriped_suit.png") -30px -65px; }
+
+  .article--05 {
+    background: #FDDB45;
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-squares.jpg") -30px -65px;
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-squares.jpg") -30px -65px; }
+
+  .article--06 {
+    background: #FDDB45;
+    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-inflicted.png") -30px -65px;
+    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-inflicted.png") -30px -65px; } }
 @media only screen {
   .article--07 {
     background: #FDDB45; } }
@@ -7625,36 +7644,17 @@ figure {
     background: url("../assets/images/bg-curves.jpg");
     background-size: cover; } }
 
+@media only screen {
+  .footer--frame {
+    padding: 0;
+    margin: 0;
+    background: #FDDB45; } }
 @media only screen and (min-width: 40.063em) {
-  .article--01 {
-    background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-shapes.jpg");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-shapes.jpg"); }
+  .footer--frame {
+    padding: 4rem;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.94); } }
 
-  .article--02 {
-    background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-pinstriped_suit.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-pinstriped_suit.png"); }
-
-  .article--03 {
-    background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-brushstrokes.jpg");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-brushstrokes.jpg"); }
-
-  .article--04 {
-    background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-lodyas.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-lodyas.png"); }
-
-  .article--05 {
-    background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-squares.jpg");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-squares.jpg"); }
-
-  .article--06 {
-    background: #FDDB45;
-    background: -webkit-linear-gradient(left, transparent 50%, white 50%), url("../assets/images/bg-inflicted.png");
-    background: linear-gradient(to right, transparent 50%, white 50%), url("../assets/images/bg-inflicted.png"); } }
 @media only screen {
   .l-magellan {
     display: none; } }

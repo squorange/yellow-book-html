@@ -301,19 +301,7 @@ section {
 	right: -18px;
 	top: 50%;
 }
-.footer--frame {
-	@extend .text--frame;
-	@media #{$small-up} {
-		padding: 0;
-		margin: 0;
-		background: $ag-yellow;
-	}
-	@media #{$medium-up} {
-		padding: $element-padding;
-		margin: 0 auto;
-		background: rgba(255,255,255,0.95);
-	}
-}
+
 .content--center {
 	display: flex;
 	align-items: center;
@@ -368,6 +356,36 @@ figure {
 .article--00 {
 	background: $ag-yellow;
 }
+
+@media #{$medium-up} {
+	@mixin half-background($bg-url) {
+		background: $ag-yellow;
+		background: linear-gradient(
+		    to right,
+		    rgba(0,0,0,0) 50%,
+		    rgba(255,255,255,100) 50%
+		  ),url($bg-url) -30px -65px;
+	}
+	.article--01 {
+		@include half-background("../assets/images/bg-shapes.jpg");			
+	}
+	.article--02 {
+		@include half-background("../assets/images/bg-inflicted.png");			
+	}
+	.article--03 {
+		@include half-background("../assets/images/bg-brushstrokes.jpg");			
+	}
+	.article--04 {
+		@include half-background("../assets/images/bg-pinstriped_suit.png");			
+	}			
+	.article--05 {
+		@include half-background("../assets/images/bg-squares.jpg");	
+	}
+	.article--06 {
+		@include half-background("../assets/images/bg-inflicted.png");			
+	}	
+}
+
 .article--07 {
 	@media #{$small-up} {
 		background: $ag-yellow;
@@ -377,36 +395,20 @@ figure {
 		background-size: cover;
 	}	
 }
-
-@media #{$medium-up} {
-	@mixin half-background($bg-url) {
-		background: $ag-yellow;
-		background: linear-gradient(
-		    to right,
-		    rgba(0,0,0,0) 50%,
-		    rgba(255,255,255,100) 50%
-		  ),url($bg-url);
+	.footer--frame {
+		@extend .text--frame;
+		@media #{$small-up} {
+			padding: 0;
+			margin: 0;
+			background: $ag-yellow;
+		}
+		@media #{$medium-up} {
+			padding: $element-padding;
+			margin: 0 auto;
+			background: rgba(255,255,255,0.94);
+		}
 	}
-	.article--01 {
-		@include half-background("../assets/images/bg-shapes.jpg");			
-	}
-	.article--02 {
-		@include half-background("../assets/images/bg-pinstriped_suit.png");			
-	}
-	.article--03 {
-		@include half-background("../assets/images/bg-brushstrokes.jpg");			
-	}
-	.article--04 {
-		@include half-background("../assets/images/bg-lodyas.png");			
-	}			
-	.article--05 {
-		@include half-background("../assets/images/bg-squares.jpg");			
-	}
-	.article--06 {
-		@include half-background("../assets/images/bg-inflicted.png");			
-	}	
-}
-
+	
 
 
 // Magellan Sub-Nav
