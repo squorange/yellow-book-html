@@ -7304,6 +7304,10 @@ body {
 .text--yellow {
   color: #FDDB45; }
 
+.text--gray, q, .quote__attribution,
+.modal__subnav {
+  color: #AAAAAA; }
+
 .text--center {
   text-align: center; }
 
@@ -7313,7 +7317,8 @@ body {
 .text--huge {
   font-size: 500%; }
 
-.small-bold-text, h3, figcaption, .quote__attribution, .sub-nav dt, .sub-nav dd {
+.small-bold-text, h3, figcaption, .quote__attribution,
+.modal__subnav, .list--blocks li, .sub-nav dt, .sub-nav dd {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
   font-size: 0.7rem;
   letter-spacing: 0.07em;
@@ -7344,12 +7349,6 @@ p {
   @media only screen and (min-width: 40.063em) {
     .page--dark p {
       color: #FFFFFF; } }
-
-q {
-  color: #AAAAAA; }
-
-.quote__attribution {
-  color: #AAAAAA; }
 
 strong {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
@@ -7582,6 +7581,33 @@ figure {
   margin-bottom: 0; }
   figure figcaption {
     margin-top: 0; }
+
+.list--blocks {
+  margin: 2em 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .list--blocks li {
+    list-style-type: none;
+    padding: 2em 2.5em;
+    margin: 0 0.75em 0.75em 0;
+    background: #FDDB45; }
 
 .article--00 {
   background: #FDDB45; }
