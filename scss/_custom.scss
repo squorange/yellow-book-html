@@ -2,13 +2,15 @@ body {
 	font-family: $font-base;
 }
 
-* + * {
-	margin-top: 1.6em;
-}
+article {
+	* + * {
+		margin-top: 1.6em;
+	}
+}	
 	.close-reveal-modal {
 		margin-top: 0;
 	}
-	.l-notop {
+	.l-notop, li {
 		margin-top: 0;
 	}
 
@@ -414,7 +416,7 @@ figure {
 	
 
 
-// Magellan Sub-Nav
+// Navigation Bars
 
 @media #{$small-up} { 
 	.l-magellan {
@@ -424,6 +426,12 @@ figure {
 @media #{$medium-up} {
 	.l-magellan {
 		display: block;
+	}
+	.l-mobile-nav {
+		display: none;
+	}
+	.f-topbar-fixed {
+		padding-top: 0 !important;
 	}
 }	
 
@@ -445,4 +453,6 @@ figure {
 	text-decoration: underline;
 }
 
-
+.top-bar-section ul li > a {
+	text-transform: uppercase;
+}
