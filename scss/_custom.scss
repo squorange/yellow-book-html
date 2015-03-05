@@ -184,6 +184,13 @@ a, a:active, a:visited {
 	color: $ag-yellow;
 }
 
+.content--aside {
+	border-left: 4px solid $ag-yellow;
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
 .cover--title {
 	font-size: 7rem;
 	line-height: 6rem;

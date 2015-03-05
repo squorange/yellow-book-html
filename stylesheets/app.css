@@ -7417,6 +7417,11 @@ a, a:active, a:visited {
 .link--modal {
   color: #FDDB45; }
 
+.content--aside {
+  border-left: 4px solid #FDDB45; }
+  .content--aside p:last-of-type {
+    margin-bottom: 0; }
+
 .cover--title {
   font-size: 7rem;
   line-height: 6rem;
