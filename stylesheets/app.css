@@ -7292,7 +7292,7 @@ th.hide-for-touch {
 body {
   font-family: "FranklinGothicLTCom-Bk", Arial, sans-serif; }
 
-article * + * {
+* + * {
   margin-top: 1.6em; }
 
 .close-reveal-modal {

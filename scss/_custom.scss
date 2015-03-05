@@ -2,11 +2,9 @@ body {
 	font-family: $font-base;
 }
 
-article {
-	* + * {
-		margin-top: 1.6em;
-	}
-}	
+* + * {
+	margin-top: 1.6em;
+}
 	.close-reveal-modal {
 		margin-top: 0;
 	}
